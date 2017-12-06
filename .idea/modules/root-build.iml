@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="root-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="SUB:DOLLARd85e797c560cbb95056a.root, _root_.coursier.CoursierPlugin.autoImport._, _root_.org.ensime.EnsimeCoursierPlugin.autoImport._, _root_.org.ensime.EnsimeExtrasPlugin.autoImport._, _root_.org.ensime.EnsimePlugin.autoImport._, _root_.sbt.Keys._, _root_.sbt._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.coursier.CoursierPlugin, _root_.org.ensime.EnsimeCoursierPlugin, _root_.org.ensime.EnsimeExtrasPlugin, _root_.org.ensime.EnsimePlugin, _root_.scala.xml.{TopScope=&gt;SUB:DOLLARscope}" sbt.resolvers="https://repo1.maven.org/maven2/|maven|public, file:/home/maiksen/.sbt/preloaded/|maven|local-preloaded, /home/maiksen/.ivy2/cache|ivy|Local cache" type="SBT_MODULE" version="4">
+<module external.linked.project.id="root-build" external.linked.project.path="$MODULE_DIR$/../../project" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" sbt.imports="SUB:DOLLARe3c1aab9a0cf7c0aad76.root, _root_.sbt.Keys._, _root_.sbt._, _root_.sbt.plugins.IvyPlugin, _root_.sbt.plugins.JvmPlugin, _root_.sbt.plugins.CorePlugin, _root_.sbt.plugins.JUnitXmlReportPlugin, _root_.sbt.plugins.Giter8TemplatePlugin, _root_.scala.xml.{TopScope=&gt;SUB:DOLLARscope}" sbt.resolvers="https://repo1.maven.org/maven2/|maven|public, file:/C:/Users/mfigura/.sbt/preloaded/|maven|local-preloaded, C:\Users\mfigura\.ivy2\cache|ivy|Local cache" type="SBT_MODULE" version="4">
   <component name="NewModuleRootManager">
     <output url="file://$MODULE_DIR$/../../project/target/idea-classes" />
     <output-test url="file://$MODULE_DIR$/../../project/target/idea-test-classes" />
@@ -12,18 +12,8 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="SBT: sbt-and-plugins">
+      <library name="sbt: sbt-and-plugins">
         <CLASSES>
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo.scala-sbt.org/scalasbt/sbt-plugin-releases/com.dwijnand/sbt-compat/scala_2.12/sbt_1.0/1.0.0/jars/sbt-compat.jar!/" />
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-cache_2.12/1.0.0-RC13/coursier-cache_2.12-1.0.0-RC13.jar!/" />
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier-extra_2.12/1.0.0-RC13/coursier-extra_2.12-1.0.0-RC13.jar!/" />
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/io/get-coursier/coursier_2.12/1.0.0-RC13/coursier_2.12-1.0.0-RC13.jar!/" />
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/io/get-coursier/sbt-coursier_2.12_1.0/1.0.0-RC13/sbt-coursier-1.0.0-RC13.jar!/" />
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/ensime/sbt-ensime_2.12_1.0/2.1.0/sbt-ensime-2.1.0.jar!/" />
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.12/1.0.6/scala-xml_2.12-1.0.6.jar!/" />
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scalaz/scalaz-concurrent_2.12/7.2.16/scalaz-concurrent_2.12-7.2.16.jar!/" />
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.2.16/scalaz-core_2.12-7.2.16.jar!/" />
-          <root url="jar://$USER_HOME$/.coursier/cache/v1/https/repo1.maven.org/maven2/org/scalaz/scalaz-effect_2.12/7.2.16/scalaz-effect_2.12-7.2.16.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.3/lib/jline.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.3/lib/scala-compiler.jar!/" />
           <root url="jar://$USER_HOME$/.sbt/boot/scala-2.12.3/lib/scala-library.jar!/" />
