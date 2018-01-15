@@ -1,6 +1,9 @@
 package de.maikfigura.filesearcher
 
-import java.security.KeyStore.TrustedCertificateEntry
+import java.io.File
+
+import scala.io.Source
+import scala.util.control.NonFatal
 
 /**
   * This class is private as `filter` is not a val
@@ -8,9 +11,30 @@ import java.security.KeyStore.TrustedCertificateEntry
   * @param filter the filter to be used
   */
 class FilterChecker(filter: String) {
+
+  def findMatchedContentCount(file: File): Boolean = {
+    try {
+      val fileSource = Source.fromFile(file)
+      try {
+        fileSource.getLines() exists(line => matches(line))
+      }
+      catch {
+        case NonFatal(_) => false
+      }
+      finally {
+        fileSource.close()
+      }
+    }
+    catch {
+      case NonFatal(_) => false
+    }
+  }
+
+
   /**
     * Does the file contain the search filter defined
-    * @param content the content (name of file) of a file
+    *
+    * @param content the content or (name of file) of a file
     * @return True if filter is contained in content, else False.
     */
   def matches(content: String): Boolean = content contains filter // infix expression
